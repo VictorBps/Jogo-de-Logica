@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Teste_Facil">
+
+    <Button
+        android:id="@+id/bt_voltar"
+        android:layout_width="110dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#FFEB3B"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Voltar"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:iconSize="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/bt_resposta"
+        app:layout_constraintTop_toBottomOf="@+id/tv_3"
+        app:layout_constraintVertical_bias="0.494" />
+
+    <Spinner
+        android:id="@+id/sp_cor2"
+        android:layout_width="202dp"
+        android:layout_height="36dp"
+        android:entries="@array/Cor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_f5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.443" />
+
+    <TextView
+        android:id="@+id/tv_f5"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:background="#FFEB3B"
+        android:backgroundTint="#FFEB3B"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Cor"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sp_cor2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.438" />
+
+    <Spinner
+        android:id="@+id/sp_n2"
+        android:layout_width="202dp"
+        android:layout_height="36dp"
+        android:entries="@array/Nacionalidades"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.736"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.513" />
+
+    <TextView
+        android:id="@+id/tv_f6"
+        android:layout_width="115dp"
+        android:layout_height="25dp"
+        android:background="#FFEB3B"
+        android:backgroundTint="#FFEB3B"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Nacionalidade"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sp_n2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.505" />
+
+    <Spinner
+        android:id="@+id/sp_cor1"
+        android:layout_width="202dp"
+        android:layout_height="36dp"
+        android:entries="@array/Cor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_f3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.302" />
+
+    <TextView
+        android:id="@+id/tv_f3"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:background="#FFEB3B"
+        android:backgroundTint="#FFEB3B"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Cor"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sp_cor1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.297" />
+
+    <Spinner
+        android:id="@+id/sp_n1"
+        android:layout_width="202dp"
+        android:layout_height="36dp"
+        android:entries="@array/Nacionalidades"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.736"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.361" />
+
+    <TextView
+        android:id="@+id/tv_f4"
+        android:layout_width="115dp"
+        android:layout_height="25dp"
+        android:background="#FFEB3B"
+        android:backgroundTint="#FFEB3B"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Nacionalidade"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sp_n1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.355" />
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="330dp"
+        android:layout_height="38dp"
+        android:text=" O Italiano mora na segunda casa."
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bt_resposta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_2"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="331dp"
+        android:layout_height="37dp"
+        android:text=" O Alemão mora na casa Azul."
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tv_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_1"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Spinner
+        android:id="@+id/sp_cor"
+        android:layout_width="202dp"
+        android:layout_height="36dp"
+        android:entries="@array/Cor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tv_f1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.144"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_f1"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:background="#FFEB3B"
+        android:backgroundTint="#FFEB3B"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Cor"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sp_cor"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <Spinner
+        android:id="@+id/sp_n"
+        android:layout_width="202dp"
+        android:layout_height="36dp"
+        android:entries="@array/Nacionalidades"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.732"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.215" />
+
+    <TextView
+        android:id="@+id/tv_f2"
+        android:layout_width="115dp"
+        android:layout_height="25dp"
+        android:background="#FFEB3B"
+        android:backgroundTint="#FFEB3B"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Nacionalidade"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sp_n"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.213" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#A9D8ED"
+        android:backgroundTint="#FFEB3B"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Básico 1 "
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019" />
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="328dp"
+        android:layout_height="59dp"
+        android:fontFamily="sans-serif"
+        android:text=" O Espanhol mora exatamente à direita do homem que mora na casa Vermelha."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tv_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sp_n2"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/bt_resposta"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#FFEB3B"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Verificar"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:iconSize="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bt_voltar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_3"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="21dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

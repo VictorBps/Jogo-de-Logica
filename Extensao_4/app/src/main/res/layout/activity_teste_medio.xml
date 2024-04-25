@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".Teste_Medio">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Adicione aqui os elementos do ConstraintLayout -->
+
+        <Spinner
+            android:id="@+id/sp1_naci2"
+            android:layout_width="202dp"
+            android:layout_height="25dp"
+            android:entries="@array/Naci1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.708"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.442"
+            tools:visibility="visible" />
+
+        <Spinner
+            android:id="@+id/sp1_cor2"
+            android:layout_width="202dp"
+            android:layout_height="25dp"
+            android:entries="@array/Cor1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.708"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.405"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_m9"
+            android:layout_width="32dp"
+            android:layout_height="20dp"
+            android:background="#51FFA3"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Cor"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/sp1_cor2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.404" />
+
+        <Spinner
+            android:id="@+id/sp1_esp2"
+            android:layout_width="202dp"
+            android:layout_height="25dp"
+            android:entries="@array/Esporte"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.708"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.511"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_m12"
+            android:layout_width="62dp"
+            android:layout_height="20dp"
+            android:background="#51FFA3"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Esporte"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/sp1_esp2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.509" />
+
+        <Spinner
+            android:id="@+id/sp1_ani2"
+            android:layout_width="202dp"
+            android:layout_height="25dp"
+            android:entries="@array/Animal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.708"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.477"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_m10"
+            android:layout_width="102dp"
+            android:layout_height="20dp"
+            android:background="#51FFA3"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Nacionalidade"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/sp1_naci2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.439" />
+
+        <TextView
+            android:id="@+id/tv_m11"
+            android:layout_width="57dp"
+            android:layout_height="20dp"
+            android:background="#51FFA3"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Animal"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/sp1_ani2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.475" />
+
+        <Spinner
+            android:id="@+id/sp1_naci1"
+            android:layout_width="202dp"
+            android:layout_height="25dp"
+            android:entries="@array/Naci1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.708"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.275"
+            tools:visibility="visible" />
+
+        <Spinner
+            android:id="@+id/sp1_cor1"
+            android:layout_width="202dp"
+            android:layout_height="25dp"
+            android:entries="@array/Cor1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.708"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.239"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_m5"
+            android:layout_width="32dp"
+            android:layout_height="20dp"
+            android:background="#51FFA3"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Cor"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/sp1_cor1"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.239" />
+
+        <Spinner
+            android:id="@+id/sp1_esp1"
+            android:layout_width="202dp"
+            android:layout_height="25dp"
+            android:entries="@array/Esporte"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.708"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.346"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_m8"
+            android:layout_width="62dp"
+            android:layout_height="20dp"
+            android:background="#51FFA3"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Esporte"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/sp1_esp1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.343" />
+
+        <Spinner
+            android:id="@+id/sp1_ani1"
+            android:layout_width="202dp"
+            android:layout_height="25dp"
+            android:entries="@array/Animal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.708"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.311"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tv_m6"
+            android:layout_width="102dp"
+            android:layout_height="20dp"
+            android:background="#51FFA3"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Nacionalidade"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/sp1_naci1"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.274" />
+
+        <TextView
+            android:id="@+id/tv_m7"
+            android:layout_width="57dp"
+            android:layout_height="20dp"
+            android:background="#51FFA3"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Animal"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/sp1_ani1"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.31" />
+
+        <Button
+            android:id="@+id/bt_resposta2"
+            android:layout_width="130dp"
+            android:layout_height="45dp"
+            android:backgroundTint="#51FFA3"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Verificar"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:iconSize="19dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/bt_voltar2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_s7"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <Button
+            android:id="@+id/bt_voltar2"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:backgroundTint="#51FFA3"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Voltar"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:iconSize="19dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/bt_resposta2"
+            app:layout_constraintTop_toBottomOf="@+id/tv_s7"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <TextView
+            android:id="@+id/tv_s7"
+            android:layout_width="328dp"
+            android:layout_height="33dp"
+            android:text="O Espanhol mora na casa Branca."
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/bt_resposta2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_s6"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <TextView
+            android:id="@+id/tv_s4"
+            android:layout_width="328dp"
+            android:layout_height="40dp"
+            android:fontFamily="sans-serif"
+            android:text="O Brasileiro está exatamente à direita do homem que gosta de Borboletas."
+            android:textAlignment="viewStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/tv_s5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_s3"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <TextView
+            android:id="@+id/tv_s5"
+            android:layout_width="328dp"
+            android:layout_height="37dp"
+            android:text="O Alemão está exatamente à esquerda do homem que joga Tênis."
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/tv_s6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_s4"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <TextView
+            android:id="@+id/tv_s6"
+            android:layout_width="328dp"
+            android:layout_height="33dp"
+            android:text="Na segunda posição está a casa Azul."
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/tv_s7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_s5"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <TextView
+            android:id="@+id/tv_s1"
+            android:layout_width="328dp"
+            android:layout_height="40dp"
+            android:fontFamily="sans-serif"
+            android:text="Quem gosta de jogar Tênis está exatamente à esquerda do Espanhol."
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/tv_s2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sp1_esp2"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <TextView
+            android:id="@+id/tv_s3"
+            android:layout_width="328dp"
+            android:layout_height="38dp"
+            android:text="O homem que gosta de Cavalos está ao lado do Espanhol."
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/tv_s4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_s2"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <TextView
+            android:id="@+id/tv_s2"
+            android:layout_width="328dp"
+            android:layout_height="33dp"
+            android:text="O morador da casa Branca joga futebol."
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/tv_s3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_s1"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <Spinner
+            android:id="@+id/sp1_ani"
+            android:layout_width="202dp"
+            android:layout_height="25dp"
+            android:entries="@array/Animal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.708"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.152"
+            tools:visibility="visible" />
+
+        <Spinner
+            android:id="@+id/sp1_esp"
+            android:layout_width="202dp"
+            android:layout_height="25dp"
+            android:entries="@array/Esporte"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.708"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.185"
+            tools:visibility="visible" />
+
+        <Spinner
+            android:id="@+id/sp1_cor"
+            android:layout_width="202dp"
+            android:layout_height="25dp"
+            android:entries="@array/Cor1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.708"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.08"
+            tools:visibility="visible" />
+
+        <Spinner
+            android:id="@+id/sp1_naci"
+            android:layout_width="202dp"
+            android:layout_height="25dp"
+            android:entries="@array/Naci1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.708"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.114"
+            tools:visibility="visible" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#51FFA3"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Basico 2"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/sp1_cor"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <TextView
+            android:id="@+id/tv_m1"
+            android:layout_width="32dp"
+            android:layout_height="20dp"
+            android:background="#51FFA3"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Cor"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/sp1_cor"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.08" />
+
+        <TextView
+            android:id="@+id/tv_m2"
+            android:layout_width="102dp"
+            android:layout_height="20dp"
+            android:background="#51FFA3"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Nacionalidade"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/sp1_naci"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.114" />
+
+        <TextView
+            android:id="@+id/tv_m3"
+            android:layout_width="57dp"
+            android:layout_height="20dp"
+            android:background="#51FFA3"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Animal"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/sp1_ani"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.151" />
+
+        <TextView
+            android:id="@+id/tv_m4"
+            android:layout_width="62dp"
+            android:layout_height="20dp"
+            android:background="#51FFA3"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Esporte"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/sp1_esp"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.185" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

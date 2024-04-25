@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Extensao_4</string>
+
+    <string-array name="Cor">
+        <item></item>
+        <item>Vermelho</item>
+        <item>Azul</item>
+        <item>Verde</item>
+    </string-array>
+
+    <string-array name="Nacionalidades">
+        <item></item>
+        <item>Espanhol</item>
+        <item>Italiano</item>
+        <item>Alemão</item>
+    </string-array>
+
+    <string-array name="Animal">
+        <item></item>
+        <item>Borboletas</item>
+        <item>Cavalos</item>
+        <item>Cachorros</item>
+    </string-array>
+
+    <string-array name="Cor1">
+        <item></item>
+        <item>Azul</item>
+        <item>Branco</item>
+        <item>Amarelo</item>
+    </string-array>
+
+    <string-array name="Naci1">
+        <item></item>
+        <item>Espanhol</item>
+        <item>Brasileiro</item>
+        <item>Alemão</item>
+    </string-array>
+
+    <string-array name="Esporte">
+        <item></item>
+        <item>Tênis</item>
+        <item>Sinuca</item>
+        <item>Futebol</item>
+    </string-array>
+
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+</resources>
